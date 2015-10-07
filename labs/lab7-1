@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main(){
+int i,suma,promedio;
+int A[10];
+for(i=0; i<=9;i++){
+scanf("%d",&A[i]);
+}
+int m, n;
+m<=n;
+printf("quienes serán m y n (0-9)?\n");
+scanf("%d %d",&m, &n);
+suma =  A[m] + A[n];
+promedio = suma/2;
+printf( "m es %d y n es %d\n", A[m], A[n]);
+printf("su suma es %d", suma);
+printf(" promedio es %d\n", promedio);
+return 0;
+}
